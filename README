@@ -1,1 +1,10 @@
 Example of an AJAX client-side callback that returns JSON.
+To run the example:
+
+bundle install
+
+rake db:migrate
+
+rake db:seed
+
+rails server -p $PORT -b $IP
